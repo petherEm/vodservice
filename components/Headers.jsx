@@ -21,14 +21,17 @@ const Headers = () => {
                 <HeaderItem title="SEARCH" Icon={SearchIcon} />
                 <HeaderItem title="USER" Icon={UserIcon} />
             </div>
-            <Image
+            <div className="justify-center items-center">
+                <h3 className="font-bold text-3xl">VoD by &lt;PM&gt;</h3>
+            </div>
+            {/* <Image
                     // className="object-contain"
                     src="https://links.papareact.com/ua6" 
                     width={200}
                     height={100}
                     objectFit='contain'
                     alt=""
-                />
+                /> */}
         </header>
     )
 }
