@@ -21,8 +21,8 @@ const Headers = () => {
                 <HeaderItem title="SEARCH" Icon={SearchIcon} />
                 <HeaderItem title="USER" Icon={UserIcon} />
             </div>
-            <div className="justify-center items-center">
-                <h3 className="font-bold text-3xl">VoD by &lt;PM&gt;</h3>
+            <div className="relative w-16 h-16 flex justify-center items-center z-40 cursor-pointer">
+                <Image src="/white_logo.svg" alt="logo" layout="fill" objectFit="contain" />
             </div>
             {/* <Image
                     // className="object-contain"
